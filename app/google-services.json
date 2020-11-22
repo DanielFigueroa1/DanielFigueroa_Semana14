@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926709147262",
+    "firebase_url": "https://semana14-485aa.firebaseio.com",
+    "project_id": "semana14-485aa",
+    "storage_bucket": "semana14-485aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926709147262:android:da075aa0040ab2de5b5a2f",
+        "android_client_info": {
+          "package_name": "com.example.danielfigueroa_semana14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926709147262-56ehunn510t8mavem0vcvvvka1tctr7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByo8nNAMziEhmv3GKooTLxwvqd1dX8YSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926709147262-56ehunn510t8mavem0vcvvvka1tctr7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
