@@ -51,10 +51,10 @@ public class AgregarActivity extends AppCompatActivity {
         );*/
     }
 
-    @Override
+
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.botonAgregarContacto{
+            case R.id.botonAgregarContacto :
             String id = db.getReference().child("contactos").child(userId).push().getKey();
                 DatabaseReference reference = db.getReference().child("contactos").child(userId).child(id);
                 Contacto contactos = new Contacto (
@@ -64,13 +64,13 @@ public class AgregarActivity extends AppCompatActivity {
                         telefonoContacto.getText().toString()
                 );
                 reference.setValue(contactos);
-                
+
                 Intent i = new Intent(this, MainActivity.class);
                 startActivity(i);
             }
 
         }
-    }
+
 
     private void loadDatabase() {
         DatabaseReference ref = db.getReference().child("contactos").child(userId);
@@ -89,6 +89,7 @@ public class AgregarActivity extends AppCompatActivity {
                     public void onCancelled(@NonNull DatabaseError error) {
 
                     }
+            }
+        );
     }
-
 }
